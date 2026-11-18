@@ -15,3 +15,8 @@ Cada pago es de 0.01 USDC, firmado por la wallet del agente (`GDKZKJGZKDUTPAZXWU
 - https://stellar.expert/explorer/testnet/tx/536d26a5da69b44fba15825660cf8ff739aa631bea40a45bc777ae9bcfadec55
 - https://stellar.expert/explorer/testnet/tx/86f0b22aa260bd7c1e84a566eac510607c1f77713cf040098b38359d7f58c3a5
 - https://stellar.expert/explorer/testnet/tx/1d9d66a40fb7997608f4ea7f353aba3233212003f30d05aab1892e667c7344de
+
+## Mi agente paga solo
+- Tope por pago: .02. Lo que lo excede se rechaza sin transacción.
+- Pago del agente a mi API: 2652d7b104c1e6490c15be2b49a5218d96476e21fb60780441141d2a81920ed1
+- Verlo: https://stellar.expert/explorer/testnet/tx/2652d7b104c1e6490c15be2b49a5218d96476e21fb60780441141d2a81920ed1
