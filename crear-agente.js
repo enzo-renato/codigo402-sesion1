@@ -77,6 +77,6 @@ const res = await enviar(
   `Presupuesto enviado al agente`,
 );
 
-appendFileSync(".env", `AGENTE_PUBLICA=${agente.publicKey()}\nAGENTE_SECRETA=${agente.secret()}\n`);
+appendFileSync(".env", `\nAGENTE_PUBLICA=${agente.publicKey()}\nAGENTE_SECRETA=${agente.secret()}\n`);
 console.log(`✅ Wallet del agente: ${agente.publicKey()}`);
 console.log(`   Presupuesto: ${PRESUPUESTO} USDC https://stellar.expert/explorer/testnet/tx/${res.hash}`);
