@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "crear-cuenta": "node 1-crear-cuenta.js",
     "fondear-cuenta": "node 2-fondear-cuenta.js",
-    "enviar-pago": "node 3-enviar-pago.js",
+    "enviar-pago": "node --env-file=.env 3-enviar-pago.js",
     "api": "node --env-file=.env server.js",
     "cliente": "node --env-file=.env cliente.js"
   },

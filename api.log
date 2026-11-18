@@ -1,0 +1,5 @@
+
+> bootcamp@1.0.0 api
+> node --env-file=.env server.js
+
+API lista en http://localhost:3001/dato
