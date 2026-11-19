@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "crear-cuenta": "node 1-crear-cuenta.js",
-    "fondear-cuenta": "node 2-fondear-cuenta.js",
-    "enviar-pago": "node --env-file=.env 3-enviar-pago.js",
     "api": "node --env-file=.env server.js",
     "cliente": "node --env-file=.env cliente.js",
     "agente-wallet": "node --env-file=.env crear-agente.js",
-    "agente": "node --env-file=.env agente.js"
+    "agente": "node --env-file=.env agente.js",
+    "cuentas": "node --env-file-if-exists=.env crear-cuentas.js",
+    "usdc": "node --env-file=.env conseguir-usdc.js",
+    "pagar": "node --env-file=.env primer-pago.js"
   },
   "keywords": [],
   "author": "",
