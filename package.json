@@ -10,7 +10,9 @@
     "agente": "node --env-file=.env agente.js",
     "cuentas": "node --env-file-if-exists=.env crear-cuentas.js",
     "usdc": "node --env-file=.env conseguir-usdc.js",
-    "pagar": "node --env-file=.env primer-pago.js"
+    "pagar": "node --env-file=.env primer-pago.js",
+    "verificar": "node --env-file=.env verificar.js",
+    "test": "node --env-file=.env --test"
   },
   "keywords": [],
   "author": "",
